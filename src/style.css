@@ -10,6 +10,11 @@ body {
     min-height: 100vh;
     text-align: center;
 }
+.title {
+    color: khaki;
+    font-size: 40px;
+    margin-top: 10px;
+}
 .main-image {
     margin: 25px;
     width: 700px;
@@ -18,4 +23,5 @@ body {
     color: white;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-weight: 900;
+    padding: 5px;
 }
