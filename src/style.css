@@ -10,6 +10,20 @@ body {
     min-height: 100vh;
     text-align: center;
 }
+nav {
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+    margin-bottom: 40px;
+}
+.btn {
+    padding: 8px 0;
+    margin-top: 20px;
+    width: 120px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
 .title {
     color: khaki;
     font-size: 40px;
@@ -19,9 +33,38 @@ body {
     margin: 25px;
     width: 700px;
 }
+.menu-container {
+    display: flex;
+    justify-content: center;
+    margin: 40px 10px;
+}
+.menu-image1 {
+    width: 500px;
+    margin-left: 50px;
+}
 .text {
     color: white;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-weight: 900;
-    padding: 5px;
+    padding: 5px 100px;
+}
+.container {
+    display: flex;
+    justify-content: center;
+}
+#contact-form {
+    width: 600px;
+}
+#contact-form input, textarea {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    width: 100%;
+    padding: 12px;
+    margin: 10px;
+    border: none;
+    border-radius: 5px;
+    resize: vertical;
+}
+#contact-form input.submit:hover {
+    background-color:khaki;
+    cursor: pointer;
 }
