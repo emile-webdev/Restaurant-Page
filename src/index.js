@@ -1,6 +1,7 @@
 import { pageLoad } from './page-load.js';
 import { menu } from './menu.js';
 import { contact } from './contact.js';
+import './style.css';
 
 pageLoad();
 
