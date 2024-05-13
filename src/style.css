@@ -2,6 +2,7 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 body {
     background-color:darkgoldenrod;
@@ -19,10 +20,17 @@ nav {
 .btn {
     padding: 8px 0;
     margin-top: 20px;
+    font-size: 16px;
+    font-weight: bold;
+    background-color: khaki;
+    color: darkgoldenrod;
     width: 120px;
     border: none;
     border-radius: 5px;
     cursor: pointer;
+}
+.btn:hover {
+    background-color: white;
 }
 .title {
     color: khaki;
@@ -32,6 +40,7 @@ nav {
 .main-image {
     margin: 25px;
     width: 900px;
+    box-shadow: 5px 5px 5px 0px rgba(0,0,0,0.7);
 }
 .menu-container {
     display: flex;
@@ -41,17 +50,27 @@ nav {
 .menu-image1, .menu-image2, .menu-image3 {
     width: 500px;
     margin-left: 50px;
+    box-shadow: 5px 5px 5px 0px rgba(0,0,0,0.7);
 }
 .text, .footer-text {
     color: white;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-weight: 900;
     padding: 5px 100px;
 }
 .footer-container, .footer-text {
     margin-bottom: 40px;
 }
-.container {
+.wrapper {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    margin: 40px;
+}
+h5 {
+    color: white;
+    font-size: 15px;
+}
+.form-container {
     display: flex;
     justify-content: center;
 }
@@ -67,7 +86,13 @@ nav {
     border-radius: 5px;
     resize: vertical;
 }
+#contact-form input.submit {
+    background-color: khaki;
+    font-size: 16px;
+    font-weight: bold;
+    color: darkgoldenrod;
+}
 #contact-form input.submit:hover {
-    background-color:khaki;
+    background-color: white;
     cursor: pointer;
 }
